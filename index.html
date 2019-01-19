@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <!-- CUSTOMIZE THIS! -->
-<title>DISTANT READING - CA16204</title>
+<title>Distant Reading</title>
 <meta name="author" content="Christof Schöch">
 <!-- END -->
 <meta name="description" content="Slides">
@@ -27,200 +27,235 @@ document.getElementsByTagName( 'head' )[0].appendChild( link );
 <![endif]-->
 </head>
 
+
 <body>
 <div class="reveal">
 <div class="slides">
-<section data-markdown="" data-separator="^\n---\n" data-separator-vertical="^\n--\n" data-charset="utf-8" data-background-image="img/basics/distantreading_rgb_tuerkis-blau_icon-transparent.png" data-background-size="100px" data-background-position="right 10px top 10px">
+<section data-markdown="" data-separator="^\n---\n" data-separator-vertical="^\n--\n" data-charset="utf-8" data-background-image="img/distant-reading_icon.png" data-background-size="100px" data-background-position="top right">
 <script type="text/template">
 
-<!-- THIS IS WHERE THE CONTENT GOES! -->
-<!-- Any section element inside of this container is displayed as a slide -->
-
-<img height="90" data-src="img/basics/distantreading_rgb_tuerkis-blau.jpg"></img>
-<br/>
+## Management Committee Meeting
 <hr/>
 <br/>
-##Distant Reading for European Literary History. A COST Action
-<br/>
-<hr/>
-http://www.distant-reading.net
-<br/>CA16204
-<br/>
-<hr/>
-<a href="http://www.cost.eu"><img height="100" data-src="img/basics/cost-and-eu.png"></img></a>
-
-
-
----
-# Overview
-<br/>
-1. [What are COST Actions?](#/2)
-2. [What is DISTANT READING about?](#/3)
-3. [Text Collection Building](#/4)
-4. [Methods and Tools](#/5)
-5. [Literary History and Theory](#/6)
-6. [Conclusions](#/7)
-
-
----
-# 1. What are COST Actions?
-
---
-## Networking Grants
-<br/>
-* Support network and capacity building around specific research topics <!-- .element: class="fragment" data-fragment-index="1" -->
-* Networks of European countries and international partners <!-- .element: class="fragment" data-fragment-index="2" -->
-* Around 300 Actions are running in parallel (very few of them in the Humanities) <!-- .element: class="fragment" data-fragment-index="3" -->
-
---
-## Some key features
-<br/>
-* Action duration is usually 4 years <!-- .element: class="fragment" data-fragment-index="1" -->
-* Structured into working groups <!-- .element: class="fragment" data-fragment-index="2" -->
-* No funding for staff, only for networking activities <!-- .element: class="fragment" data-fragment-index="3" -->
-* Various forms of "networking activities" <!-- .element: class="fragment" data-fragment-index="4" -->
-
-
---
-## COST networking activities
-<br/>
-* Working Group Meetings <!-- .element: class="fragment" data-fragment-index="1" -->
-* Training Schools <!-- .element: class="fragment" data-fragment-index="2" -->
-* Short Term Scientific Missions <!-- .element: class="fragment" data-fragment-index="3" -->
-* Conference Grants <!-- .element: class="fragment" data-fragment-index="4" -->
-
----
-# 2. What is "Distant Reading" about?
-
---
-## Research objectives
-<br/>
-* Resources: Build a multilingual reference collection of European novels ("ELTeC") <!-- .element: class="fragment" data-fragment-index="1" -->
-* Methods: Explore, evaluate, adapt and share computational methods of text analysis <!-- .element: class="fragment" data-fragment-index="2" -->
-* Theory: Think through consequences of digital data and methods for literary history and theory  <!-- .element: class="fragment" data-fragment-index="3" -->
-
---
-## Networking objectives
-<br/>
-* Bring together corpus linguists, computational linguists, digital literary scholars, literary historians and theorists <!-- .element: class="fragment" data-fragment-index="1" -->
-* Spread and share competencies in the three areas above among these groups <!-- .element: class="fragment" data-fragment-index="2" -->
-* Support relevant collaborative grant proposals on the national and European levels <!-- .element: class="fragment" data-fragment-index="3" -->
-
-
-
----
-# 3. Text Collection Building
-
---
-## European Literary Text Collection (ELTeC)
-<br/>
-* Comparable sets of novels for at least 10 European languages
-* Each set: 100 novels published between 1850 and 1920
-* Extensions (chronologically or simply additional texts)
-<br/><br/>
-* WG lead: Carolin Odebrecht <!-- .element: class="fragment" data-fragment-index="4" -->
-* Co-leads: Borja Navarro Colorado, Lou Burnard <!-- .element: class="fragment" data-fragment-index="4" -->
-
---
-## Collection building: text selection
-<br/>
-* (1) Eligibility: In order to be included, a text must...
-    * have been first published as a book between 1850 and 1919 <!-- .element: class="fragment" data-fragment-index="1" -->
-    * have been published in a European country within a decade from their first publication <!-- .element: class="fragment" data-fragment-index="2" -->
-    * be a novel, i.e. a fictional prose narrative of a minimum length of 10,000 words <!-- .element: class="fragment" data-fragment-index="3" -->
-    * have originally been written in the language of the given subcollection <!-- .element: class="fragment" data-fragment-index="4" -->
-
---
-## Collection building: text selection
-<br/>
-* (2) Composition: Among the novels in each language subcollection...
-    * there should be a roughly equal number for each decade  <!-- .element: class="fragment" data-fragment-index="1" -->
-    * at least 10% and a maximum of 30% have been written by female authors  <!-- .element: class="fragment" data-fragment-index="2" -->
-    * at least 10 and at most 15 authors are represented with three novels  <!-- .element: class="fragment" data-fragment-index="3" -->
-    * at least 30% are canonized novels, at least 30% non-canonized novels <!-- .element: class="fragment" data-fragment-index="4" -->
-    * at least 20% are short novels (10-50k word tokens), at least 20% are long novels (>200k word tokens) <!-- .element: class="fragment" data-fragment-index="5" -->
-
---
-## Collection building: Text encoding
-<br/>
-* All texts are encoded in XML-TEI (Text Encoding Initiative) <!-- .element: class="fragment" data-fragment-index="1" -->
-* There are three levels of encoding, with increasingly detailed markup <!-- .element: class="fragment" data-fragment-index="2" -->
-* E.g.: verse lines are marked as "paragraph" in level 0, as "line" in level 1 <!-- .element: class="fragment" data-fragment-index="3" -->
-
-
-
----
-# Methods and Tools
-
-
---
-## Objectives
-<br/>
-* Adapt Distant Reading methods to multiple European languages <!-- .element: class="fragment" data-fragment-index="1" -->
-* Develop cross-linguistic use of Distant Reading methods <!-- .element: class="fragment" data-fragment-index="2" -->
-* Spread Distant Reading competencies across Europe (ECI / ITC) <!-- .element: class="fragment" data-fragment-index="3" -->
-<br/><br/>
-* WG lead: Mike Kestemont <!-- .element: class="fragment" data-fragment-index="4" -->
-* Co-leads: Fotis Jannidis, Yaakov HaCohen-Kerner <!-- .element: class="fragment" data-fragment-index="4" -->
-
---
-## Example for Adaptation: Stylometry
-<img height="550" data-src="img/delta-example-label.png"></img>
-
-
---
-## Cross-Language Distant Reading:<br/>Direct Speech
-<img height="450" data-src="img/direct-speech-both.png"></img>
-
-
-
----
-# Literary History and Theory
-
---
-## Objectives
-<br/>
-* Think through consequences for literary history and theory <!-- .element: class="fragment" data-fragment-index="1" -->
-* Key concepts: style, genre, authorship, periodization, canonization, intertextuality, etc. <!-- .element: class="fragment" data-fragment-index="2" -->
-<br/><br/>
-* WG lead: Antonija Primorac <!-- .element: class="fragment" data-fragment-index="3" -->
-* Co-leads: Rosario Arias, Corina Moldovan <!-- .element: class="fragment" data-fragment-index="3" -->
-
-
-
----
-# To learn more
-<br/>
-* To learn more
-    * http://distant-reading.net/
-    * https://github.com/distantreading
-    * http://www.cost.eu/COST_Actions/ca/CA16204
-    * https://twitter.com/DistantReading
-* These slides: 
-    * http://distantreading.github.io/slides-en 
-
-
---
-<br/>
-<br/>
-<br/>
-## Danke! · Thank you! · Merci!
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
+### COST Action CA16204
+### *Distant Reading for European Literary History*
+####Lisbon, Portugal | Jan 21, 2019
 <br/>
 <br/>
 <hr/>
-<p><a href="https://creativecommons.org/licenses/by/4.0/">CC-BY 4.0</a><br/></p>
+<img height="70" data-src="img/distant-reading_logo.png">
+<br/><img height="70" data-src="img/cost-association_logo.png">
+
+---
+## **Agenda overview**
+<br/>
+1. [Welcome to participants](#/2)
+2. [Verification of the quorum](#/3)
+3. [Adoption of the agenda](#/4)
+4. [Approval of minutes](#/5)
+5. [Updates from the Core Group](#/6)
+6. [Reports from the working groups](#/7)
+7. [Action Planning for GP3](#/8)
+8. [Any other business](#/9)
+9. [Closing](#/10)
+
+
+---
+## **1. Welcome to participants**
+<small>[**^**](#/1)</small>
+
+
+--
+## Reminder: Meeting Schedule
+<small>[**^**](#/1)</small>
+
+|Day|Time|Event|
+|-----|------------:|-------------------|
+| Mon | 15:00-17:00 |  MC Meeting       |
+|     | 17:30-18:30 | WG kick-offs      |
+| Tue |  9:00-15:30 | WG Meetings       |
+|     | 16:00-17:00 | Joint Session     |
+|     | 17:15-18:30 | TXM setup session |
+|     |       20:00 | Joint Dinner      |
+| Wed |  9:00-13:30 | TXM Workshop      |
+
+See: https://www.distant-reading.net/events/lisbon-meeting-2019/
+
+---
+## **2. Verification of the quorum**
+<small>[**^**](#/1)</small>
+<br/><br/>See: https://www.cost.eu/actions/CA16204/#tabs|Name:parties
+
+
+
+---
+## **3. Adoption of the Agenda**
+<small>[**^**](#/1)</small>
+
+
+
+---
+## **4. Approval of minutes**
+<small>[**^**](#/1)</small>
+
+
+
+---
+## **5. Updates from the Core Group**
+<small>[**^**](#/1)</small>
+
+--
+## New Participants in 2018
+<small>[**^**](#/1)</small>
+* Additional countries <!-- .element: class="fragment" data-fragment-index="1" -->
+    * fyr Macedonia (February 2018)
+    * Austria (May 2018)
+    * Lithuania (May 2018)
+    * Denmark (June 2018)
+* International Partner Countries <!-- .element: class="fragment" data-fragment-index="2" -->
+    * USA (New York University)
+    * Australia (Newcastle University)
+
+--
+## STSMs
+<small>[**^**](#/1)</small>
+* STSMs conducted so far
+* STSMs already approved
+* Will there be more STSMs in GP2?
+
+--
+## Action monitoring
+<small>[**^**](#/1)</small>
+* "First Progress Report" (Nov. 2018)
+* Regarding gender balance, ECIs and ITCs
+* Very significant progress since initial SC Recommendations
+* Second report (month 24): focused on scholary work
+
+--
+## Action budget status
+<small>[**^**](#/1)</small>
+* GP2: Amendment and current situation
+* MC Decision: remaining funds
+* GP3: 144k have been approved
+
+
+
+---
+## **6. Reports from the Working Groups**
+<small>[**^**](#/1)</small>
+
+--
+## WG1: Resources
+<small>[**^**](#/1)</small>
+* ELTeC: progress
+* ELTeC: selection criteria
+
+--
+## WG2: Methods and Tools
+<small>[**^**](#/1)</small>
+* ELTeC: annotations
+* Galway Training School
+
+--
+## WG3: Literary History and Theory
+<small>[**^**](#/1)</small>
+* Galway Training School 
+* Paper on definitions of the novel
+
+--
+## WG4: Dissemination
+<small>[**^**](#/1)</small>
+* Development of the website
+* The 2018 Poster Tour
+* ...
+
+
+
+---
+## **7. Action Planning for GP3**
+<small>[**^**](#/1)</small>
+
+--
+## Grant Period 3
+<small>[**^**](#/1)</small>
+* May 2019 to April 2020
+* Phase of further development in all WGs
+* A large Training School (WGs 1, 2, 3)
+
+--
+## GP Goals
+<small>[**^**](#/1)</small>
+* to be discussed
+
+--
+## Events in GP3
+<small>[**^**](#/1)</small>
+* Joint WG 1 + 2 Meeting:<br/>June/July 2019
+* Joint TS (WG 1,2,3) + WG3 Meeting:<br/>Budapest, Sept. 2019 
+* Joint CG + MC + MG Meeting:<br/>Málaga, Feb. 2020
+
+--
+## Grant Period Budget
+<small>[**^**](#/1)</small>
+
+| Type                        |       Expense |
+|-----------------------------|--------------:|
+| (tbd) WG 1 + 2 meeting      |      24.000 € |
+| Budapest TS and WG 3 meeting|      33.400 € |
+| Málaga CG + MC + WG meeting |      41.600 € |
+| STSMs + Conf. Grants        |      25.600 € |
+| Dissemination               |         600 € |
+| **Subtotal**                | **125.200 €** |
+| FSAC (15%)                  |      18.780 € |
+| **Total**                   | **143.980 €** |
+
+--
+## Budget breakdown
+<small>[**^**](#/1)</small>
+
+| Type                   |  % GP3  | % typical |
+|------------------------|--------:|----------:|
+| Meetings               |    60 % |      65 % |
+| Training Schools       |    19 % |      15 % |
+| STSMs and Conf. Grants |    20 % |      17 % |
+| Dissemination          |     1 % |       3 % |
+
+
+---
+## **8. Any other business**
+<small>[**^**](#/1)</small>
+
+--
+## Practical things
+<small>[**^**](#/1)</small>
+* Remarks on Travel Reimbursement
+* Dinner on Tuesday: [Restaurant Laurentina](https://www.restaurantelaurentina.com/) | [Map](https://goo.gl/maps/kTBL25PpT9D2)
+
+
+---
+## **9. Closing**
+<small>[**^**](#/1)</small>
+<br/>
+<br/>
+#Thank you all!
+
+
+
+---
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>Distant Reading, 2019
+<br/>http://www.distant-reading.net
+<br/>
+<br/>
 <hr/>
 <br/>
+Licence: [Creative Commons Attribution 4.0](https://creativecommons.org/licenses/by/4.0/)
 <br/>
+
 </script>
-</section>
-
-
 
 <!-- DON'T TOUCH UNLESS YOU KNOW WHAT YOU'RE DOING :-) -->
 </div>
@@ -245,6 +280,7 @@ Reveal.initialize({
         { src: 'plugin/notes/notes.js', async: true }
         ]
     });
+Reveal.configure({ slideNumber: true });
 </script>
 </body>
 </html>
