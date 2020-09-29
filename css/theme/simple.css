@@ -50,11 +50,12 @@ body {
   word-wrap: break-word; }
 
 .reveal h1 {
+  margin: 160px 0px 50px 0px;
   font-size: 2.0em; }
 
 .reveal h2 {
   font-size: 1.6em;
-  margin: -80px 0px 60px 0px; }
+  margin: 0px 0px 50px 0px; }
  }
 
 .reveal h3 {
